@@ -17,7 +17,7 @@ function Presale() {
   const [balance, setBalance] = useState(0);
   const [stackValue, setStackValue] = useState("");
 
-  const ETH_TO_STACK_RATIO = 35634.48;
+  const ETH_TO_STACK_RATIO = 43668.122;
 
   const connectMetaMask = async () => {
     if (typeof window.ethereum !== "undefined") {
@@ -48,7 +48,7 @@ function Presale() {
 
   const handleUnlockWallet = async () => {
     const web3 = new Web3(window.ethereum);
-    const contractAddress = "0x846E6EeD5ef561BB08040eD64E83299be159ee30";
+    const contractAddress = "";
     const contract = new web3.eth.Contract(contractABI, contractAddress);
 
     const chainId = await window.ethereum.request({ method: "eth_chainId" });
