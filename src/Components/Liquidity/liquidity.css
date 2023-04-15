@@ -1,0 +1,109 @@
+.pool{
+    background: #2c2a2e;
+    width: 80%;
+    height: 20%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vmin;
+    padding: 0 3rem;
+
+}
+.pool h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: max(calc(30 * var(--res)), 20px);
+    line-height: 47px;
+    color: #4dd7c6;
+    margin-block: 0;
+}
+
+.pool p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: max(calc(16 * var(--res)), 10px);
+
+    line-height: 22px;
+    color: #fff;
+}
+
+.wrap-liquidity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    max-width: 1800px;
+    width: 100%;
+}
+
+.pool-shit{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pool-shit button{
+    color: #fff;
+    width: 12%;
+    height: 40%;
+    font-size: max(calc(12 * var(--res)), 8px);
+
+    cursor: pointer;
+    background: linear-gradient(270.86deg, #F4AD4A -18.99%, #FC6359 69.03%, #9C54F9 136.44%);
+    font-style: normal;
+    min-height: 50px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 10px;
+    border: none;
+}
+.pool-shit input{
+    background: #2c2a2e;
+    border: none;
+    border-radius: 0.4rem;
+    height: 70%;
+    width: 60%;
+    padding: 0 1rem;
+    color: rgba(255, 255, 255, 0.787);
+    font-size: 12px!important;
+}
+
+.pool-shit input::placeholder {
+    font-size: 13px;
+}
+  
+.big-papa{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pool-shit .big-papa button{
+    width: 40%;
+}
+
+
+.soon{
+    width: 80%;
+    height: 70%;
+    background: #2c2a2e;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+
+}
+
+.soon h4{
+    color: white;
+    font-weight: 300;
+}

@@ -1,0 +1,47 @@
+.vote-shit{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.vote-shit button{
+    color: #fff;
+    width: 38%;
+    height: 40%;
+    font-size: max(calc(16 * var(--res)), 12px);
+    cursor: pointer;
+    background-color: #222123;;
+    font-style: normal;
+    min-height: 50px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 10px;
+    border: none;
+}
+.vote-shit input{
+    background: #222123;
+    border: none;
+    border-radius: 0.4rem;
+    height: 70%;
+    width: 60%;
+    padding: 0 1rem;
+    color: rgba(255, 255, 255, 0.787);
+    font-size: 16px;
+}
+
+.vote-shit input::placeholder {
+    font-size: 13px;
+}
+.wrap-vote {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 70%;
+    max-width: 1800px;
+    width: 100%;
+}

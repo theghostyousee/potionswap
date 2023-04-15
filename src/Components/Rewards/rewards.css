@@ -1,0 +1,19 @@
+
+
+
+
+.vote-shit button:first-child {
+    background: -webkit-linear-gradient(179.14deg,#f4ad4a -18.99%,#fc6359 69.03%,#9c54f9 136.44%)!important;
+    background: -moz-linear-gradient(179.14deg,#f4ad4a -18.99%,#fc6359 69.03%,#9c54f9 136.44%)!important;
+    background: linear-gradient(270.86deg,#f4ad4a -18.99%,#fc6359 69.03%,#9c54f9 136.44%)!important;
+}
+
+.wrap-rewards {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 70%;
+    max-width: 1800px;
+    width: 100%;
+}

@@ -1,17 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Header from "./Components/Header/header";
+import Nav from "./Components/Nav/Nav";
+import Swap from "./Components/Swap/swap";
+import Liquidity from "./Components/Liquidity/liquidity";
+import Vest from "./Components/Vest/vest";
+import Vote from "./Components/Vote/vote";
+import Rewards from "./Components/Rewards/rewards";
+import Bribe from "./Components/Bribe/bribe";
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import Presale from "./Components/Presale/presale";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Nav />
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Swap />} />
+        <Route exact path="/liquidity" element={<Liquidity />} />
+        <Route path="/vest" element={<Vest />} />
+        <Route path="/vote" element={<Vote />} />
+        <Route path="/rewards" element={<Rewards />} />
+        <Route path="/presale" element={<Presale />} />
+        <Route path="/bribe" element={<Bribe />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+

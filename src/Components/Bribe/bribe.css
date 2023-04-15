@@ -1,0 +1,128 @@
+.wrap-bribe {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 70%;
+  width: 100%;
+}
+
+
+.bribe-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 60%;
+    max-width: 1400px;
+
+    align-items: center;
+
+}
+
+.bribe-content .left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+    padding: 0 2em;
+}
+
+.bribe-content .left h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #fafafa;
+}
+
+.bribe-content .left p{
+    margin-top: 17px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+
+.bribe-content .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    max-width: 600px;
+    background-color: #262524;
+    border-radius: 1rem;
+}
+
+.bribe-content .right .top-bribe{
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bribe-content .right .top-bribe button{
+    width: 50%;
+    height: 100%;
+    background-color: #c06bcd!important;
+    color: #000!important;
+    border-top-left-radius: 1rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bribe-content .right .top-bribe .fake-btn{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 1rem;
+    cursor: pointer;
+
+    border: none;
+    color: #5d5656!important;
+
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+
+}
+
+.not-available{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+
+.button-bribe{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-bribe button{
+    width: 90%;
+    height: 30%;
+    background: -webkit-linear-gradient(179.14deg,#f4ad4a -18.99%,#fc6359 69.03%,#9c54f9 136.44%)!important;
+    background: -moz-linear-gradient(179.14deg,#f4ad4a -18.99%,#fc6359 69.03%,#9c54f9 136.44%)!important;
+    background: linear-gradient(270.86deg,#f4ad4a -18.99%,#fc6359 69.03%,#9c54f9 136.44%)!important;
+    font-size: 20px;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    cursor: not-allowed;
+}
