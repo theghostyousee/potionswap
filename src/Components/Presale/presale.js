@@ -64,9 +64,13 @@ function Presale() {
     const value = web3.utils.toWei(amount, "ether");
 
     try {
+      const gasPrice = await web3.eth.getGasPrice();
+      const gasLimit = 201000;
       const result = await contract.methods.buyPresale().send({
         from: sender,
         value: value,
+        gasPrice: gasPrice,
+        gasLimit: gasLimit,
       });
       console.log(result);
     } catch (error) {
