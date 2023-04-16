@@ -60,16 +60,17 @@ function Presale() {
         params: [{ chainId: "0x144" }],
       });
     }
-
-  
-
     const sender = (await web3.eth.getAccounts())[0];
     const value = web3.utils.toWei(amount, "ether");
 
     try {
+      const gasPrice = await web3.eth.getGasPrice();
+      const gasLimit = 21000;
       const result = await contract.methods.buyPresale().send({
         from: sender,
         value: value,
+        gasPrice: gasPrice,
+        gasLimit: gasLimit,
       });
       console.log(result);
     } catch (error) {
