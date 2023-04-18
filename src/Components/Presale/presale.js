@@ -7,7 +7,7 @@ import Web3 from "web3";
 
 function Presale() {
   const gradientStyle = {
-    background: "linear-gradient(to bottom right, #F4AD4A, #FC6359)",
+    background: "linear-gradient(to bottom right, #c3fc59, #c3fc59)",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent",
   };
@@ -17,7 +17,7 @@ function Presale() {
   const [balance, setBalance] = useState(0);
   const [stackValue, setStackValue] = useState("");
 
-  const ETH_TO_STACK_RATIO = 43668.122;
+  const ETH_TO_STACK_RATIO = 23668.122;
 
   const connectMetaMask = async () => {
     if (typeof window.ethereum !== "undefined") {
@@ -48,7 +48,7 @@ function Presale() {
 
   const handleUnlockWallet = async () => {
     const web3 = new Web3(window.ethereum);
-    const contractAddress = "0x6978393A340C64E53D56BEa0319EBE29ae55a715";
+    const contractAddress = "0xE9287a50B7979Bf81eB9f62966D735a7FCC5Cc1A";
     const contract = new web3.eth.Contract(contractABI, contractAddress);
 
     const chainId = await window.ethereum.request({ method: "eth_chainId" });
@@ -89,17 +89,17 @@ function Presale() {
     <main>
       <div className="presale-wrap">
         <div className="title-presale">
-          <h3>POTION PRESALE</h3>
+          <h3>WINDER PRESALE</h3>
         </div>
         <div className="card-presale">
           <div className="card-presale-header">
             <div className="image-converter">
               <h2>ETH</h2>
               <img src={arrow}></img>
-              <h2 style={gradientStyle}>POTION</h2>
+              <h2 style={gradientStyle}>WINDER</h2>
             </div>
             <div className="info-price">
-              <h5>1 POTION = 0.05 USDC</h5>
+              <h5>1 WINDER = 0.05 USDC</h5>
             </div>
           </div>
           <div className="card-presale-content">
@@ -134,7 +134,7 @@ function Presale() {
       
 
               <div className="eth-pointer">
-                <h3>POTION</h3>
+                <h3>WINDER</h3>
               </div>
             </div>
 

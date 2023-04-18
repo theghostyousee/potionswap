@@ -43,24 +43,6 @@ function Header() {
         </div>
         <ul className="header-links">
           <li>
-            <Link to="/">Swap</Link>
-          </li>
-          <li>
-            <Link to="/liquidity">Liquidity</Link>
-          </li>
-          <li>
-            <Link to="/vest">Vest</Link>
-          </li>
-          <li>
-            <Link to="/vote">Vote</Link>
-          </li>
-          <li>
-            <Link to="/rewards">Rewards</Link>
-          </li>
-          <li>
-            <Link to="/bribe">Bribe</Link>
-          </li>
-          <li>
             <Link to="/presale">Presale</Link>
           </li>
         </ul>

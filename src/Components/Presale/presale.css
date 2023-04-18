@@ -23,7 +23,7 @@
 .card-presale {
   display: flex;
   flex-direction: column;
-  background-color: #262524;
+  background-color: #000000;
   width: 67%;
   height: 50%;
   align-items: center;
@@ -206,9 +206,9 @@ input::placeholder {
   width: 100%;
   background: linear-gradient(
     270.86deg,
-    #f4ad4a -18.99%,
-    #fc6359 69.03%,
-    #9c54f9 136.44%
+    #bbf44a -18.99%,
+    #c3fc59 69.03%,
+    #ddf954ca 136.44%
   );
 }
 

@@ -22,7 +22,7 @@ body {
   position: relative;
   align-items: center;
   flex-direction: column;
-  background-color: #1c1a1d;;
+  background-color: #000000;;
   position: relative;
 }
 
@@ -62,8 +62,9 @@ header{
 
 .header-links{
     display: flex;
-    background-color: #262524;
+    background-color: #b89f20;
     width: 60%;
+    display: none;
     justify-content: space-around;
     align-items: center;
     height: 30%;
@@ -83,9 +84,10 @@ header{
 
 .header-btn button{
     background-color: #262524;
-    color: white;
-    padding: 30px 30px;
-    border-radius: 2rem;
+    color: #c3fc59;
+    padding: 20px 30px;
+    border-radius: 1rem;
+    font-size: 16px;
     border: none;
     cursor: pointer;
 }
