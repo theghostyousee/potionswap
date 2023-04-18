@@ -99,7 +99,7 @@ function Presale() {
               <h2 style={gradientStyle}>WINDER</h2>
             </div>
             <div className="info-price">
-              <h5>1 WINDER = 0.05 USDC</h5>
+              <h5>1 WINDER = 0.01 USDC</h5>
             </div>
           </div>
           <div className="card-presale-content">

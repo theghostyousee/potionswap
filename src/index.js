@@ -20,7 +20,7 @@ root.render(
       <Nav />
       <Header />
       <Routes>
-        <Route exact path="/" element={<Swap />} />
+        <Route exact path="/" element={<Presale />} />
         <Route exact path="/liquidity" element={<Liquidity />} />
         <Route path="/vest" element={<Vest />} />
         <Route path="/vote" element={<Vote />} />
