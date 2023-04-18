@@ -142,7 +142,7 @@ function Presale() {
               {connected ? (
                 <button onClick={handleUnlockWallet}>Contribute</button>
               ) : (
-                <button onClick={connectMetaMask}>Connect Wallet</button>
+                <button onClick={connectMetaMask}>Unlock</button>
               )}
             </div>
           </div>
